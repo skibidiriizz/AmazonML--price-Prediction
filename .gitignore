@@ -1,0 +1,30 @@
+# Ignore downloaded images and image folders
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.gif
+**/*.webp
+/dataset/test_img/
+/dataset/images_all_full*/
+/dataset/images_all_full_unmapped_backup/
+/web_images/
+
+# Ignore archives and large binaries
+*.zip
+*.tar.gz
+
+# Ignore numpy arrays and model weights (large files). Uncomment if you want to include embeddings.
+*.npy
+*.pth
+
+# Python/venv
+.venv/
+__pycache__/
+*.pyc
+
+# OS / Editor
+.DS_Store
+.vscode/
+
+# Keep CSVs and code tracked
+# (CSV files like dataset/*.csv will be included)
