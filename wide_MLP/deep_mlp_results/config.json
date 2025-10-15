@@ -1,0 +1,40 @@
+{
+  "model_architecture": {
+    "total_parameters": 18907137,
+    "trainable_parameters": 18907137,
+    "input_size": 1024,
+    "hidden_sizes": [
+      2048,
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "num_layers": 6,
+    "dropout_rate": 0.3,
+    "batch_norm": true
+  },
+  "training_args": {
+    "layers": 5,
+    "hidden_size": 2048,
+    "dropout": 0.3,
+    "batch_size": 256,
+    "epochs": 250,
+    "learning_rate": 0.0008,
+    "weight_decay": 0.0001,
+    "patience": 25,
+    "no_batch_norm": false,
+    "architecture": "wide"
+  },
+  "evaluation_metrics": {
+    "smape": 22.96013832092285,
+    "rmse": 11.773539238321206,
+    "mae": 3.7234482765197754,
+    "mse": 138.61621899165377,
+    "r2": 0.8755277395248413
+  },
+  "dataset_info": {
+    "total_samples": 72206,
+    "feature_dimension": 1024
+  }
+}
