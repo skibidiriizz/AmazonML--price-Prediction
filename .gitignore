@@ -28,3 +28,4 @@ __pycache__/
 
 # Keep CSVs and code tracked
 # (CSV files like dataset/*.csv will be included)
+dataset/combined.csv
